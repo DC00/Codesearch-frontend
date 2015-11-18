@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+
+{% block title %}Welcome | {{ block.super }}{% endblock %}
+
+<style>
+    {% block style %}
+    {% endblock %}
+</style>
+
+
+{% block jumbotron %}
+    <div class="row"
+        <div class="col-md-12">
+            <div class="jumbotron">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Codesearch</h1><br>
+                        <form>
+                            <input type="search" placeholder="Search">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
